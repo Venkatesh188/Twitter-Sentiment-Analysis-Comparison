@@ -51,6 +51,18 @@ To prepare the dataset for modeling, several preprocessing steps were performed:
 
 For productization, the XGBoost model is recommended due to its simplicity, lower resource requirements, and ease of deployment and maintenance. It provides good performance and reliability, making it a practical choice for real-world applications where efficiency is critical.
 
+## Technologies Used
+
+- **Programming Language:** Python  
+- **Development Environment:** Jupyter Notebook  
+- **Data Manipulation & Analysis:** Pandas, NumPy  
+- **Natural Language Processing:** NLTK, spaCy, TextBlob  
+- **Machine Learning:** Scikit-learn, XGBoost  
+- **Deep Learning:** PyTorch, fastai, Keras (for baseline comparisons)  
+- **Visualization:** Matplotlib, Seaborn  
+- **Model Evaluation:** Scikit-learn metrics (accuracy, F1-score, precision, recall)  
+- **Utilities:** tqdm (progress tracking), GPU support (CUDA for PyTorch)  
+
 ## References
 
 Twitter_Sentiment_Analysis_xgboost.ipynb
